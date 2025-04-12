@@ -38,3 +38,12 @@ yarn-error.log*
 next-env.d.ts
 
 .genkit/*
+# Firebase specifics
+/functions/node_modules
+/functions/lib
+/functions/.runtimeconfig.json
+.runtimeconfig.json
+
+# General
+node_modules
+.DS_Store
